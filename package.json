@@ -1,0 +1,14 @@
+{
+  "name": "koolproxy-element-hiding",
+  "version": "0.1.0",
+  "description": "Hide AD elements according to ABP rules",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/uglify-js/bin/uglifyjs ./src/main.js -o ./dist/koolproxy-element-hiding.js"
+  },
+  "author": "NemoAlex",
+  "license": "MIT",
+  "dependencies": {
+    "uglify-js": "^2.7.3"
+  }
+}
