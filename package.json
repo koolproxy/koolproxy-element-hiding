@@ -4,7 +4,7 @@
   "description": "Hide AD elements according to ABP rules",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/uglify-js/bin/uglifyjs ./src/main.js -o ./dist/koolproxy-element-hiding.js"
+    "build": "./node_modules/uglify-js/bin/uglifyjs ./src/main.js -o ./dist/koolproxy-element-hiding.js -m"
   },
   "author": "NemoAlex",
   "license": "MIT",
